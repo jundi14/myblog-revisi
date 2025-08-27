@@ -11,5 +11,3 @@ tags:
 Dalam melakukan kegiatan, pola pikir akan mempengaruhi kesehatan mental sehingga menjadi penting di setiap lini kehidupan kita, menentukkan pula apa yang akan kita lakukan berikutnya.
 
 Pola pikir yang positif harus dibentuk dari diri kita sendiri, dan tidak mungkin orang lain yang melakukannya. Tidak perlu bukti ilmiah, bahkan hampir setiap orang pasti pernah merasakan efek dari pola pikir.
-
-![](/img/screenshot-2025-08-15-213456.png)
