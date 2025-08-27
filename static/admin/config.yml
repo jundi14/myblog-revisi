@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jundi14/myblog
+  repo: jundi14/myblog-revisi
 media_folder: static/img
 public_folder: /img
 collections:
