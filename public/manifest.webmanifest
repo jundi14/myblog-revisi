@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "categories": [
+    "blog",
+    "technology",
+    "education"
+  ],
+  "description": "My Blog Revisi",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "images/favicon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "en-US",
+  "name": "My Blog Revisi",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "My Blog Revisi",
+  "start_url": "/",
+  "theme_color": "#09090b"
+}
