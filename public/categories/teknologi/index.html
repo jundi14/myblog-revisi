@@ -2,15 +2,14 @@
 <html
   lang="en-US"
   data-theme="nord">
-  <head>
-	<meta name="generator" content="Hugo 0.148.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>Jundi Mubarok</title>
+<title>Teknologi | Jundi Mubarok</title>
 
 <meta name="description" content="Saya suka berbagi cerita tentang pengalaman sehari-hari dan terkadang berbagi tutorial ringan seputar teknologi dan website." />
 <meta name="keywords" content="Blog, Personal, Teknologi" />
@@ -18,7 +17,7 @@
 <meta name="language" content="en-US" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="http://localhost:1313/" />
+<link rel="canonical" href="http://localhost:1313/categories/teknologi/" />
 
 
 
@@ -27,9 +26,9 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="http://localhost:1313/">
+<meta property="og:url" content="http://localhost:1313/categories/teknologi/">
   <meta property="og:site_name" content="Jundi Mubarok">
-  <meta property="og:title" content="Jundi Mubarok">
+  <meta property="og:title" content="Teknologi">
   <meta property="og:description" content="Saya suka berbagi cerita tentang pengalaman sehari-hari dan terkadang berbagi tutorial ringan seputar teknologi dan website.">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
@@ -38,11 +37,11 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/android-chrome-512x512.avif">
-  <meta name="twitter:title" content="Jundi Mubarok">
+  <meta name="twitter:title" content="Teknologi">
   <meta name="twitter:description" content="Saya suka berbagi cerita tentang pengalaman sehari-hari dan terkadang berbagi tutorial ringan seputar teknologi dan website.">
 
 
-  <meta itemprop="name" content="Jundi Mubarok">
+  <meta itemprop="name" content="Teknologi">
   <meta itemprop="description" content="Saya suka berbagi cerita tentang pengalaman sehari-hari dan terkadang berbagi tutorial ringan seputar teknologi dan website.">
   <meta itemprop="datePublished" content="2025-08-27T10:15:24+07:00">
   <meta itemprop="dateModified" content="2025-08-27T10:15:24+07:00">
@@ -54,7 +53,7 @@
     rel="alternate"
     type="application/rss+xml"
     title="Jundi Mubarok"
-    href="http://localhost:1313/index.xml" />
+    href="http://localhost:1313/categories/teknologi/index.xml" />
 
 
 
@@ -270,6 +269,112 @@
   <body class="bg-background text-foreground min-h-screen antialiased">
     
     
+  <div
+    id="reading-progress-container"
+    class="reading-progress-container pointer-events-none fixed top-0 right-0 left-0 z-50 transition-opacity duration-300 ease-out"
+    data-height="3"
+    data-smooth-scroll="true"
+    data-hide-on-complete="false">
+    
+    <div class="reading-progress-bg w-full"></div>
+
+    
+    <div
+      id="reading-progress-bar"
+      class="from-primary to-primary/80 reading-progress-bar 
+        transition-all duration-150 ease-out
+       absolute top-0 left-0 w-0 bg-gradient-to-r"></div>
+  </div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const progressContainer = document.getElementById(
+        "reading-progress-container",
+      );
+      const progressBar = document.getElementById("reading-progress-bar");
+
+      if (!progressContainer || !progressBar) return;
+
+      
+      const config = {
+        smoothScroll: progressContainer.dataset.smoothScroll === "true",
+        hideOnComplete: progressContainer.dataset.hideOnComplete === "true",
+      };
+
+      let isVisible = true;
+      let gumshoeInstance = null;
+
+      
+      function calculateProgress() {
+        const scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        const documentHeight = document.documentElement.scrollHeight;
+        const windowHeight = window.innerHeight;
+        const scrollableHeight = documentHeight - windowHeight;
+
+        if (scrollableHeight <= 0) return 0;
+
+        return Math.min(Math.max((scrollTop / scrollableHeight) * 100, 0), 100);
+      }
+
+      
+      function updateProgress() {
+        const progress = calculateProgress();
+        progressBar.style.width = progress + "%";
+
+        
+        if (config.hideOnComplete && progress >= 99.5) {
+          if (isVisible) {
+            progressContainer.style.opacity = "0";
+            isVisible = false;
+          }
+        } else if (!isVisible) {
+          progressContainer.style.opacity = "1";
+          isVisible = true;
+        }
+      }
+
+      
+      let ticking = false;
+      function requestTick() {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            updateProgress();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }
+
+      
+      function init() {
+        
+        window.addEventListener("scroll", requestTick, { passive: true });
+        window.addEventListener("resize", requestTick, { passive: true });
+        document.addEventListener("visibilitychange", () => {
+          if (!document.hidden) requestTick();
+        });
+
+        
+        requestTick();
+
+        
+        window.addEventListener("beforeunload", () => {
+          window.removeEventListener("scroll", requestTick);
+          window.removeEventListener("resize", requestTick);
+        });
+      }
+
+      
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+      } else {
+        init();
+      }
+    })();
+  </script>
 
     <header class="sticky top-0 z-50 mx-auto max-w-4xl px-4 py-6">
   <div
@@ -717,74 +822,119 @@
 
     <main class="mx-auto max-w-4xl px-4 py-6">
       
-  <div class="mx-auto max-w-4xl">
+  
+  <nav
+  class="breadcrumb mb-4 md:mb-6 py-1"
+  aria-label="Breadcrumb navigation">
+  <ol class="text-muted-foreground flex items-center space-x-1 md:space-x-2 text-sm overflow-x-auto whitespace-nowrap scrollbar-hide py-1">
     
-    
-      <section class="author-section mb-12">
-        <div class="bg-card border-border rounded-xl border p-8 shadow-sm">
-          <div
-            class="flex flex-col items-center gap-6 text-center md:flex-row md:items-start md:text-left">
-            
-            <div class="flex-shrink-0">
-              
-                <img
-                  src="/author-baru.avif"
-                  alt="Jundi Mubarok"
-                  class="border-primary/20 h-24 w-24 rounded-full border-4 object-cover shadow-lg" />
-              
-            </div>
-
-            
-            <div class="min-w-0 flex-1">
-              <h1 class="text-foreground mb-2 text-3xl font-bold">
-                Jundi Mubarok
-              </h1>
-
-              
-                <p class="text-muted-foreground mb-3 text-lg">
-                  Write Stories Share Inspiration
-                </p>
-              
-
-              
-
-
-              
-              
-                <div
-                  class="flex flex-wrap justify-center gap-3 md:justify-start">
-                  
-                    <a
-                      href="https://t.me/jundi_mubarok"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-                      title="Telegram">
-                      
-                        
+    <li class="flex-shrink-0">
+      <a
+        href="/"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex items-center gap-0.5 md:gap-1 rounded-lg px-1 md:px-3 py-0.5 md:py-1.5 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.02]">
+        
   <svg class="h-4 w-4"
     fill="none"
     stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Telegram">
-	<path fill="currentColor" d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12a12 12 0 0 0 12-12A12 12 0 0 0 12 0zm4.962 7.224c.1-.002.321.023.465.14a.5.5 0 0 1 .171.325c.016.093.036.306.02.472c-.18 1.898-.962 6.502-1.36 8.627c-.168.9-.499 1.201-.82 1.23c-.696.065-1.225-.46-1.9-.902c-1.056-.693-1.653-1.124-2.678-1.8c-1.185-.78-.417-1.21.258-1.91c.177-.184 3.247-2.977 3.307-3.23c.007-.032.014-.15-.056-.212s-.174-.041-.249-.024q-.159.037-5.061 3.345q-.72.495-1.302.48c-.428-.008-1.252-.241-1.865-.44c-.752-.245-1.349-.374-1.297-.789q.04-.324.893-.663q5.247-2.286 6.998-3.014c3.332-1.386 4.025-1.627 4.476-1.635" />
+    viewBox="0 0 24 24" aria-label="Home">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 12 2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+
 </svg>
-                      
-                      <span class="text-sm font-medium">Telegram</span>
-                    </a>
-                  
-                </div>
+        <span class="max-w-[4rem] md:max-w-none truncate">Home</span>
+      </a>
+    </li>
+
+    
+    
+      <li class="flex items-center gap-1 md:gap-2 min-w-0">
+        <span class="text-muted-foreground/50 flex-shrink-0"
+          >
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+</svg>
+        </span>
+
+        
+          
+          
+            
+            
               
-            </div>
-          </div>
-        </div>
-      </section>
+              <span class="text-foreground flex items-center gap-0.5 md:gap-1 font-medium flex-shrink-0">
+                
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                <span class="max-w-[3rem] md:max-w-none truncate">Categories</span>
+              </span>
+            
+          
+        
+      </li>
+    
+
+  </ol>
+</nav>
+
+
+
+  
+  <header class="mb-8">
+    <div class="mb-4 flex items-center gap-3">
+      
+        
+  <svg class="h-6 w-6"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+      
+      <h1 class="text-foreground text-3xl font-bold">
+        Teknologi
+      </h1>
+    </div>
+
+    
+      <p class="text-muted-foreground mb-6">
+        
+          All posts under category &#34;Teknologi&#34;
+        
+      </p>
     
 
 
     
-    
-    
+    <div class="text-muted-foreground flex items-center gap-4 text-sm">
+      <div class="flex items-center gap-1">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+</svg>
+        <span
+          >1 posts total</span
+        >
+      </div>
+      <div class="flex items-center gap-1">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+        <span>Sorted by date</span>
+      </div>
+    </div>
+  </header>
 
+  
+  
+  
     
 
 
@@ -796,10 +946,6 @@
 
   <section class="post-list">
     
-    
-      <div class="mb-6 flex items-center justify-between">
-        <h2 class="text-foreground text-2xl font-bold">Recent Posts</h2>
-      </div>
     
 
 
@@ -945,164 +1091,13 @@
 
           
           
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-      
-        
-
-
-
-
-<article class="group">
-  <a href="/posts/platform-blogging-bearblog/" class="block">
-    <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-      
-      <div class="block md:hidden">
-        <div class="aspect-[2/1] overflow-hidden">
-    <img
-      src="/images/placeholder/7.jpg"
-      alt="Bearblog, Platform Blogging Yang Sedang Nge-trend"
-      class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-      loading="lazy"
-      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
-    
-    <div class="from-teal-500/20 to-green-500/10 relative aspect-[2/1] overflow-hidden bg-gradient-to-br" style="display: none; background-blend-mode: overlay; background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);">
-      
-      <div class="absolute inset-0">
-        
-          
-          
-          <div class="absolute left-[15%] top-[20%] rotate-45">
-            <div class="h-0 w-0 border-l-[10px] border-r-[10px] border-b-[16px] border-l-transparent border-r-transparent border-b-white/80"></div>
-          </div>
-          
-          <div class="absolute right-[20%] top-[15%] rotate-12">
-            <div class="h-0 w-0 border-l-[8px] border-r-[8px] border-b-[12px] border-l-transparent border-r-transparent border-b-white/70"></div>
-          </div>
-          
-          <div class="absolute left-[25%] bottom-[25%] -rotate-30">
-            <div class="h-0 w-0 border-l-[6px] border-r-[6px] border-b-[10px] border-l-transparent border-r-transparent border-b-white/60"></div>
-          </div>
-          
-          <div class="absolute right-[15%] bottom-[20%] rotate-60">
-            <div class="h-0 w-0 border-l-[7px] border-r-[7px] border-b-[11px] border-l-transparent border-r-transparent border-b-white/65"></div>
-          </div>
-          
-          <div class="absolute left-[45%] top-[40%] -rotate-15">
-            <div class="h-0 w-0 border-l-[5px] border-r-[5px] border-b-[8px] border-l-transparent border-r-transparent border-b-white/50"></div>
-          </div>
-          
-          <div class="absolute right-[35%] top-[35%] h-2 w-2 rounded-full bg-white/40"></div>
-          <div class="absolute left-[40%] bottom-[35%] h-1.5 w-1.5 rounded-full bg-white/35"></div>
-          <div class="absolute right-[45%] bottom-[45%] h-1 w-1 rounded-full bg-white/30"></div>
-          
-          <div class="absolute top-[30%] left-[30%] h-0.5 w-6 rotate-45 bg-white/25"></div>
-          <div class="absolute bottom-[30%] right-[30%] h-0.5 w-4 -rotate-30 bg-white/20"></div>
-        
-      </div>
-    </div>
-  
-</div>
-      </div>
-
-      
-      <div class="absolute top-0 right-0 hidden h-full w-80 transition-opacity duration-300 group-hover:opacity-90 md:block">
-        <div class="h-full w-full">
-    <img
-      src="/images/placeholder/7.jpg"
-      alt="Bearblog, Platform Blogging Yang Sedang Nge-trend"
-      class="h-full w-full object-cover"
-      loading="lazy"
-      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
-    
-    <div class="from-teal-500/20 to-green-500/10 relative h-full w-full overflow-hidden bg-gradient-to-br" style="display: none; background-blend-mode: overlay; background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);">
-      
-      <div class="absolute inset-0">
-        
-          
-          
-          <div class="absolute left-[15%] top-[20%] rotate-45">
-            <div class="h-0 w-0 border-l-[10px] border-r-[10px] border-b-[16px] border-l-transparent border-r-transparent border-b-white/80"></div>
-          </div>
-          
-          <div class="absolute right-[20%] top-[15%] rotate-12">
-            <div class="h-0 w-0 border-l-[8px] border-r-[8px] border-b-[12px] border-l-transparent border-r-transparent border-b-white/70"></div>
-          </div>
-          
-          <div class="absolute left-[25%] bottom-[25%] -rotate-30">
-            <div class="h-0 w-0 border-l-[6px] border-r-[6px] border-b-[10px] border-l-transparent border-r-transparent border-b-white/60"></div>
-          </div>
-          
-          <div class="absolute right-[15%] bottom-[20%] rotate-60">
-            <div class="h-0 w-0 border-l-[7px] border-r-[7px] border-b-[11px] border-l-transparent border-r-transparent border-b-white/65"></div>
-          </div>
-          
-          <div class="absolute left-[45%] top-[40%] -rotate-15">
-            <div class="h-0 w-0 border-l-[5px] border-r-[5px] border-b-[8px] border-l-transparent border-r-transparent border-b-white/50"></div>
-          </div>
-          
-          <div class="absolute right-[35%] top-[35%] h-2 w-2 rounded-full bg-white/40"></div>
-          <div class="absolute left-[40%] bottom-[35%] h-1.5 w-1.5 rounded-full bg-white/35"></div>
-          <div class="absolute right-[45%] bottom-[45%] h-1 w-1 rounded-full bg-white/30"></div>
-          
-          <div class="absolute top-[30%] left-[30%] h-0.5 w-6 rotate-45 bg-white/25"></div>
-          <div class="absolute bottom-[30%] right-[30%] h-0.5 w-4 -rotate-30 bg-white/20"></div>
-        
-      </div>
-    </div>
-  
-</div>
-      </div>
-
-      
-      <div class="absolute top-0 right-0 hidden h-full w-80 opacity-0 transition-opacity duration-300 group-hover:opacity-100 md:block bg-gradient-to-l from-primary/5"></div>
-
-      
-      <div class="relative z-10 flex flex-1 flex-col p-6 md:pr-[21rem]">
-        
-        <h3 class="text-foreground group-hover:text-primary mb-4 text-lg font-semibold leading-tight transition-colors duration-200">
-          Bearblog, Platform Blogging Yang Sedang Nge-trend
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground mb-4 text-sm leading-relaxed">
-            Pada saat ini ada banyak layanan yang memudahkan kita untuk membuat website dan blog, sebut saja blogspot dan wordpress yang banyak …
-          </p>
-        
-
-        
-        <div class="mt-auto text-sm text-muted-foreground">
-          
-          <div class="flex items-center gap-3">
-            <div class="flex items-center gap-1.5">
+            <div class="flex flex-wrap items-center gap-1.5 mt-2">
               
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Published on"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-              <time datetime="2024-07-22" class="font-medium">
-                July 22, 2024
-              </time>
+                <span class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-1">
+                  <span class="font-medium">contoh-tag</span>
+                </span>
+              
             </div>
-            
-              <div class="flex items-center gap-1.5">
-                
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Reading time"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-                <span class="font-medium">2 minute</span>
-              </div>
-            
-          </div>
-
-          
           
         </div>
       </div>
@@ -1113,39 +1108,13 @@
     </div>
 
     
-    
-      <div class="mt-8 text-center">
-        <a
-          href="/posts/"
-          class="bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary/20 inline-flex items-center gap-2 rounded-xl px-6 py-3 font-medium shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:shadow-lg focus:ring-2 focus:outline-none active:scale-95">
-          
-  <svg class="h-5 w-5"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Posts">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-
-</svg>
-          <span>View All Posts</span>
-          
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-</svg>
-        </a>
-      </div>
     
 
   </section>
 
 
+  
 
-
-    
-    
-
-  </div>
 
     </main>
 
@@ -1322,6 +1291,28 @@
   <nav
     class="border-border bg-card/80 scrollbar-hide xs:px-3 xs:py-2 mx-auto flex max-w-[calc(100vw-2rem)] min-w-fit items-center justify-center overflow-x-auto rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-sm sm:px-4 sm:py-3">
     
+    
+      <button
+        id="dock-back"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex flex-shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
+        title="Back"
+        aria-label="Back">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24">
+  <path d="m12 19-7-7 7-7"/>
+  <path d="M19 12H5"/>
+
+</svg>
+        <span class="hidden sm:inline"
+          >Back</span
+        >
+      </button>
+
+      
+      <div class="bg-border xs:mx-1 mx-2 h-6 w-px sm:mx-2"></div>
     
 
 

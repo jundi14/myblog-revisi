@@ -4,5 +4,4 @@ slug = "{{ .Name }}"
 description = ""
 date = {{ .Date }}
 categories = []
-tags = []
 +++

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contoh on Jundi Mubarok</title>
-    <link>http://localhost:1313/categories/contoh/</link>
-    <description>Recent content in Contoh on Jundi Mubarok</description>
+    <title>Teknologi on Jundi Mubarok</title>
+    <link>http://localhost:1313/categories/teknologi/</link>
+    <description>Recent content in Teknologi on Jundi Mubarok</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 27 Aug 2025 10:15:24 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/contoh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/teknologi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Firts Post</title>
       <link>http://localhost:1313/posts/my-firts-post/</link>

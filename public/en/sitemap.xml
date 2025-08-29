@@ -15,12 +15,6 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/contoh/</loc>
-    <lastmod>2025-08-27T10:15:24+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/contoh-tag/</loc>
-    <lastmod>2025-08-27T10:15:24+07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-08-27T10:15:24+07:00</lastmod>
     <xhtml:link
@@ -40,8 +34,22 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-08-27T10:15:24+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/categories/teknologi/</loc>
     <lastmod>2025-08-27T10:15:24+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/platform-blogging-bearblog/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blogging/</loc>
+    <lastmod>2024-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/contoh/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/contoh-tag/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
@@ -52,7 +60,5 @@
                 hreflang="en-US"
                 href="http://localhost:1313/tags/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
   </url>
 </urlset>
