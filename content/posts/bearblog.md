@@ -6,7 +6,6 @@ description: ""
 categories:
   - Blogging
 ---
-
 Pada saat ini ada banyak layanan yang memudahkan kita untuk membuat website dan blog, sebut saja blogspot dan wordpress yang banyak digunakan untuk berbagai macam keperluan.
 
 Saat ini yang sedang nge-trend di para user threads yaitu [bearblog](https://bearblog.dev), platform blogging yang jauh lebih simpel dan minimalis dibandingkan wordpress dan blogspot.
@@ -24,18 +23,20 @@ Platform ini gratis dan memiliki opsi upgrade ke fitur premium.
 
 Ini fitur yang kamu dapatkan ketika kamu upgrade, yaitu:
 
-- Custom domain
-- Unggah gambar
-- Analitik yang lebih detail
-- Menambahkan javascript
-- Menambahkan kode ke dalam elemen `footer` dan `head`
-- Menghapus logo Bear
+* Custom domain
+* Unggah gambar
+* Analitik yang lebih detail
+* Menambahkan javascript
+* Menambahkan kode ke dalam elemen `footer` dan `head`
+* Menghapus logo Bear
 
 Jika tetap pada layanan gratis, maka tidak akan mendapatkan semua fitur premium yang sudah disebutkan diatas, cuma bisa menulis dan analitik yang sederhana ditambah bakal ada embel-embel **bearblog.dev** di belakang nama domain yang dibuat.
 
 Ketika tujuannya hanya menulis dan menganggap mengunggah gambar itu tidak begitu penting, berarti layanan gratis sudah cukup.
 
 Menurut saya gambar dalam artikel cukup penting, apalagi ketika ingin menunjukkan sesuatu yang memang perlu untuk ditampilkan.
+
+![Fitur Pada Bearblog Ketika Update](/img/upgrade-bearblog.png "Fitur Pada Bearblog Ketika Update")
 
 Tulisan seputar tutorial misalnya, kadangkala perlu disisipkan gambar untuk mendukung tulisan, sehingga kebutuhan pembaca terpenuhi dan apa yang disampaikan oleh penulis juga bisa tersampaikan secara sempurna.
 
