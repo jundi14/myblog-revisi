@@ -25,3 +25,15 @@ collections:
       - { label: 'cover', name: 'cover', widget: 'image', required: false }
       - { label: 'comment', name: 'comment', widget: 'boolean', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    folder: 'content'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Judul Halaman', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }      
+      - { label: 'Isi Artikel', name: 'body', widget: 'markdown' }
+    
