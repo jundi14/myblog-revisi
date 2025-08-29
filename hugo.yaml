@@ -92,9 +92,6 @@ params:
       - name: "Instagram"
         url: "https://instagram.com/jundi.mubarok"
         icon: "instagram-svgrepo-com"  
-      - name: "Bluesky"
-        url: "https://bsky.app/profile/jundi.web.id"
-        icon: "butterfly-svgrepo-com"  
   # UI Components Control
   showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
@@ -143,7 +140,7 @@ params:
     showRelated: false           # show related posts
     relatedPostsCount: 3        # posts number
     license:
-      show: false
+      show: true
       #author: "Jundi"
       #name: "CC BY-NC 4.0"
       description: "Harap gunakan untuk tujuan non-komersial dan pertahankan lisensi yang sama."
