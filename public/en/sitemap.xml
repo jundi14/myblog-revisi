@@ -52,5 +52,7 @@
                 hreflang="en-US"
                 href="http://localhost:1313/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
   </url>
 </urlset>
