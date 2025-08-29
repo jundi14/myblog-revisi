@@ -4,7 +4,7 @@ slug: my-firts-post
 date: 2025-08-27T10:15:24+07:00
 description: ""
 categories:
-  - Contoh
+  - Teknologi
 tags:
   - contoh-tag
 ---
