@@ -41,8 +41,6 @@ Tulisan seputar tutorial misalnya, kadangkala perlu disisipkan gambar untuk mend
 
 Mungkin karena keterbatasan pada layanan gratisnya maka saya melihat beberapa orang yang memiliki platform blogging di bearblog memiliki website lain pada platform yang berbeda, karena memang bearblog ini mengutamakan kata-kata.
 
-![Fitur Premium Bearblog](./upgrade-bearblog.png 'Fitur Premium Saat Upgrade')
-
 Sangat cocok untuk curcol maupun sebagai jurnal harian 😅 karena platform bearblog hampir tidak ada maintenance bahkan bisa dibilang tidak ada, tidak seperti wordpress yang banyak printilan yang membuat kita terdistraksi dari hal yang penting, yaitu menulis artikel.
 
 Menurut saya harga yang ditawarkan terbilang cukup lumayan, kecuali dia **'minimalist enthusiast'** pasti akan ambil yang versi premiumnya 😁
