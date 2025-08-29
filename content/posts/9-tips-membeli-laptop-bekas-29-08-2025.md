@@ -1,7 +1,7 @@
 ---
 title: 9 Tips Membeli Laptop Bekas
 date: 2025-08-29T23:41:00.000+07:00
-description: Inilah cara untuk membeli laptop bekas agar tidak menyesal di kemudian hari
+description: ""
 categories:
   - Teknologi
 ---
