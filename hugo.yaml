@@ -89,6 +89,9 @@ params:
       - name: "Telegram"
         url: "https://t.me/jundi_mubarok"
         icon: "telegram"
+      - name: "Instagram"
+        url: "https://instagram.com/jundi.mubarok"
+        icon: "instagram-svgrepo-com"  
   # UI Components Control
   showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
