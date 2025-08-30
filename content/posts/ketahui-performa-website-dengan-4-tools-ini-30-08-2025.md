@@ -2,6 +2,7 @@
 title: Ketahui Performa Website Dengan 4 Tools Ini
 slug: cek performa website
 date: 2025-08-30T16:27:00.000+07:00
+cover: /img/featured-performa-website.jpg
 categories:
   - Teknologi
 ---

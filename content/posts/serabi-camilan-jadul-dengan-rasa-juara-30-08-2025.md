@@ -2,6 +2,7 @@
 title: Serabi, Camilan Jadul dengan Rasa Juara!
 slug: camilan jadul serabi
 date: 2025-08-30T23:52:00.000+07:00
+cover: /img/featured-serabi.jpg
 categories:
   - Coretan
 ---

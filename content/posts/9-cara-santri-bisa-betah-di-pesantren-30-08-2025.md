@@ -2,6 +2,7 @@
 title: 9 Cara Santri Bisa Betah di Pesantren
 slug: cara agar betah di pesantren
 date: 2025-08-30T17:16:00.000+07:00
+cover: /img/featured-betah-pesantren.jpg
 categories:
   - Coretan
 ---

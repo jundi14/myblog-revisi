@@ -2,6 +2,7 @@
 title: Berapa Banyak Jumlah Iklan Yang Ideal Pada Website?
 slug: jumlah iklan ideal
 date: 2025-08-30T00:09:00.000+07:00
+cover: /img/featured-iklan.jpg
 categories:
   - Blogging
 ---
