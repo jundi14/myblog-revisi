@@ -51,6 +51,12 @@ menus:
       params:
         icon: edit
         target: "_blank"   # Tambahkan ini agar membuka tab baru
+    - name: Bluesky
+      url: "https://bsky.app/profile/jundi.web.id"
+      weight: 15
+      params:
+        icon: link
+        target: "_blank"   # Tambahkan ini agar membuka tab baru
   # footer social link
   social:
     - name: Privacy
