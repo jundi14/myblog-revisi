@@ -1,5 +1,5 @@
 # Feature enable switch
-enabled: true
+enabled: false
 
 # Image URL list (supports external URLs and local paths)
 images:
