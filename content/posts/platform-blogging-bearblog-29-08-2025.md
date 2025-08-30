@@ -3,6 +3,7 @@ title: Bearblog, Platform Blogging Yang Sedang Nge-trend
 slug: platform blogging bearblog
 date: 2024-07-22
 description: ""
+cover: /img/featured-bearblog.jpg
 categories:
   - Blogging
 ---
