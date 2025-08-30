@@ -17,25 +17,27 @@ Penasaran bagaimana cara mengecek kecepatan sebuah website? Ini dia daftarnya.
 
 ### Gtmetrix.com
 
-![](./gtmetrix.png)
+![](/img/gtmetrix.png)
 
 Situs ini bisa memberikan informasi yang cukup detail berkaitan tentang website yang kamu intip performanya, dari mulai performa, struktur, waterfall dan ringkasannya.
 
 ### Webpagetest.org
 
-![](./webpagetest.png)
+![webpagetest.org](/img/webpagetest.png)
+
+
 
 Pada website ini kamu bisa lebih spesifik mensimulasikan pada merk ponsel tertentu, jadi hasil bisa menyesuaikan dengan tipe ponsel yang dipilih.
 
 Hasil yang ditampilkan juga cukup detail dengan metode yang berulang, dan bagaimana hasil akhir saat website diakses berulang kali.
 
-![](./pagetest.png)
+![Hasil Scan webpagetest.org](/img/pagetest.png)
 
 Sebenarnya disitus ini bukan hanya untuk mengecek performa situs saja tapi juga ada tools lain yang berkaitan tentang website juga
 
 ### Bytecheck.com
 
-![](./bytecheck.png)
+![bytecheck.com](/img/bytecheck.png)
 
 Pada website ini hanya untuk mengetahui berapa lama waktu ping antar server yang terjadi dan total waktunya akan direkap.
 
@@ -43,11 +45,11 @@ Hasilnya bisa berbeda tergantung dari kecepatan server yang kamu gunakan, hasil 
 
 ### Pagespeed.web.dev
 
-![](./googlespeed.png)
+![pagespeed.web.dev](/img/googlespeed.png)
 
 Website ini milik google maka hasil yang ditampilkan akan lebih akurat karena biasanya pengunjung menggunakan google.com untuk *browsing* sehingga menampilkan hasil yang lebih sesuai.
 
-***
+- - -
 
 Kita menginginkan website yang cepat saat diakses, tapi ada pengecualian jika website tersebut sengaja menampilkan banyak sekali gambar beresolusi tinggi, contoh nya portfolio fotografer.
 
