@@ -1,11 +1,11 @@
 ---
 title: Bearblog, Platform Blogging Yang Sedang Nge-trend
 slug: platform blogging bearblog
-date: 2024-07-22
+date: 2025-08-13T08:00:00.000+07:00
 description: ""
-cover: /img/featured-bearblog.jpg
 categories:
   - Blogging
+cover: /img/featured-bearblog.jpg
 ---
 Pada saat ini ada banyak layanan yang memudahkan kita untuk membuat website dan blog, sebut saja blogspot dan wordpress yang banyak digunakan untuk berbagai macam keperluan.
 
