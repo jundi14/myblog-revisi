@@ -1,10 +1,10 @@
 ---
 title: Serabi, Camilan Jadul dengan Rasa Juara!
 slug: camilan jadul serabi
-date: 2025-08-30T23:52:00.000+07:00
-cover: /img/featured-serabi.jpg
+date: 2025-08-01T08:00:00.000+07:00
 categories:
   - Coretan
+cover: /img/featured-serabi.jpg
 ---
 Di pagi minggu yang cerah banyak sekali yang menjajakan makanan di pusat keramaian, salah satunya di OSG (Open Space Gallery) yang berlokasi di antara Desa Bojong dan Desa Linggasana.
 
