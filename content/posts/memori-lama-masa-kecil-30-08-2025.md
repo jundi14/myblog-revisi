@@ -1,10 +1,10 @@
 ---
 title: Kenangan Masa Kecil yang Masih Membekas di Ingatan
 slug: kenangan masa kecil
-date: 2025-08-29
-cover: /img/featured-kenangan-masa-kecil.jpg
+date: 2025-08-03T08:00:00.000+07:00
 categories:
   - Coretan
+cover: /img/featured-kenangan-masa-kecil.jpg
 ---
 
 Teringat masa kecil banyak pengalaman menarik dan seru.
