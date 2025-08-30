@@ -1,10 +1,10 @@
 ---
 title: 9 Cara Santri Bisa Betah di Pesantren
 slug: cara agar betah di pesantren
-date: 2025-08-30T17:16:00.000+07:00
-cover: /img/featured-betah-pesantren.jpg
+date: 2025-08-05T08:00:00.000+07:00
 categories:
   - Coretan
+cover: /img/featured-betah-pesantren.jpg
 ---
 Belajar di pesantren menjadi salah satu cara agar terbiasa dengan pola hidup lebih disiplin dengan bimbingan asatidz yang akan membimbing kita untuk betah di dalam lingkungan yang lebih baik, *Insyaallah*.
 
