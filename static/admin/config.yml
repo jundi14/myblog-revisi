@@ -1,13 +1,14 @@
 backend:
   name: github
   repo: jundi14/myblog-revisi
-logo_url: https://blog-revisi.netlify.app/android-chrome-512x512.svg
 media_folder: static/img
 public_folder: /img
 commit_messages:
   create: Create {{collection}} “{{slug}}”
   update: Update {{collection}} “{{slug}}”
   delete: Delete {{collection}} “{{slug}}”
+  uploadMedia: Upload “{{path}}”
+  deleteMedia: Delete “{{path}}”
 collections:
   - name: 'blog'
     label: 'Blog'
