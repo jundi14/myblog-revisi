@@ -28,7 +28,7 @@ collections:
         default: ["Teknologi"]
       - { label: 'cover', name: 'cover', widget: 'image', required: false }
       - { label: 'Komentar', name: 'comment', widget: 'boolean', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Artikel', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     folder: 'content'
@@ -39,5 +39,5 @@ collections:
     fields:
       - { label: 'Judul Halaman', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string' }      
-      - { label: 'Isi Artikel', name: 'body', widget: 'markdown' }
+      - { label: 'Isi Halaman', name: 'body', widget: 'markdown' }
     

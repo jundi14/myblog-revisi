@@ -50,5 +50,12 @@
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;siapa-saya&#34;&gt;Siapa Saya&lt;/h2&gt;&#xA;&lt;p&gt;Halo nama saya Jundi, dan saya senang kamu mampir ke halaman ini.&lt;/p&gt;&#xA;&lt;p&gt;Mari kita mulai dengan beberapa fakta menarik (atau setidaknya, saya harap kamu menemukannya menarik) tentang saya.&lt;/p&gt;&#xA;&lt;p&gt;Dalam keseharian, saya bekerja sebagai Operator Sekolah.&lt;/p&gt;&#xA;&lt;p&gt;Saya sangat menyukai bidang yang berkaitan tentang website (saya masih belajar, hanya tertarik!).&lt;/p&gt;&#xA;&lt;p&gt;Saya memiliki ketertarikan di dunia website statis, sampai saat ini saya menggunakan layanan dari Hugo yang cepat tanpa harus memuat database.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Kebijakan Privasi</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;h3 id=&#34;kebijakan-lisensi-konten&#34;&gt;Kebijakan Lisensi Konten&lt;/h3&gt;&#xA;&lt;p&gt;Semua konten yang saya tulis di situs ini disebarluaskan di bawah Lisensi &lt;a href=&#34;http://creativecommons.org/licenses/by-nc/4.0/&#34;&gt;Creative Commons Atribusi-NonKomersial 4.0 Internasional&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;kebijakan-aplikasi&#34;&gt;Kebijakan Aplikasi&lt;/h3&gt;&#xA;&lt;p&gt;Saya menggunakan aplikasi berikut ini untuk mengaplikasikan fitur berkaitan tentang website ini&lt;/p&gt;&#xA;&lt;h3 id=&#34;netlify&#34;&gt;Netlify&lt;/h3&gt;&#xA;&lt;p&gt;Situs ini di-host oleh Netlify. Kamu dapat membaca tentang kebijakan privasi mereka &lt;a href=&#34;https://www.netlify.com/privacy/&#34;&gt;disini&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;pencilbooth&#34;&gt;PencilBooth&lt;/h4&gt;&#xA;&lt;p&gt;Saya menggunakan layanan pencil booth untuk mengumpulkan email bagi mereka yang ingin menjadi pelanggan website ini, kamu dapat membaca kebijakan privasi mereka &lt;a href=&#34;https://pencilbooth.com/privacy&#34;&gt;disini&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;letterbird&#34;&gt;Letterbird&lt;/h4&gt;&#xA;&lt;p&gt;Saya menggunakan layanan Letterbird untuk membuat formulir kontak di website ini yang berfungsi untuk menerima pesan dan akan diteruskan ke email pribadi saya, kamu bisa membaca kebijakan privasinya &lt;a href=&#34;https://policies.goodenough.us/privacy/&#34;&gt;disini&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

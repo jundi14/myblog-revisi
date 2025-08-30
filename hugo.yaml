@@ -18,10 +18,6 @@ languages:
     languageCode: en-US
     languageName: "English"
     weight: 1
-  id:
-    languageCode: id-ID
-    languageName: "Indonesian"
-    weight: 2
 taxonomies:
   category: categories
   tag: tags
@@ -34,12 +30,12 @@ menus:
         icon: posts
     - name: nav.categories
       pageRef: /categories
-      weight: 30
+      weight: 40
       params:
         icon: categories
     - name: nav.archives
       pageRef: /archives
-      weight: 50
+      weight: 30
       params:
         icon: archive
   # footer menu
@@ -57,6 +53,11 @@ menus:
         target: "_blank"   # Tambahkan ini agar membuka tab baru
   # footer social link
   social:
+    - name: Privacy
+      pageRef: /privacy
+      weight: 20
+      params:
+        icon: license
     - name: Email
       url: https://letterbird.co/jundi
       weight: 40
@@ -100,7 +101,7 @@ params:
   # Header sticky effect
   stickyHeader: true  # Set to true to enable sticky navigation bar
   # default color scheme
-  colorScheme: "nord"
+  colorScheme: "Default"
   themes:
     default:
       name: "Default"
@@ -141,7 +142,7 @@ params:
     showRelated: false           # show related posts
     relatedPostsCount: 3        # posts number
     license:
-      show: true
+      show: false
       #author: "Jundi"
       #name: "CC BY-NC 4.0"
       description: "Harap gunakan untuk tujuan non-komersial dan pertahankan lisensi yang sama."
