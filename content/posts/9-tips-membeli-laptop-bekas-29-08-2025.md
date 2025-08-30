@@ -1,5 +1,6 @@
 ---
 title: 9 Tips Membeli Laptop Bekas
+slug: tips membeli laptop
 date: 2025-08-29T23:41:00.000+07:00
 description: ""
 cover: /img/featured-laptop.jpg
