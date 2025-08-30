@@ -33,8 +33,6 @@ Hasil yang ditampilkan juga cukup detail dengan metode yang berulang, dan bagaim
 
 ![Hasil Scan webpagetest.org](/img/pagetest.png)
 
-Sebenarnya disitus ini bukan hanya untuk mengecek performa situs saja tapi juga ada tools lain yang berkaitan tentang website juga
-
 ### Bytecheck.com
 
 ![bytecheck.com](/img/bytecheck.png)
@@ -47,7 +45,7 @@ Hasilnya bisa berbeda tergantung dari kecepatan server yang kamu gunakan, hasil 
 
 ![pagespeed.web.dev](/img/googlespeed.png)
 
-Website ini milik google maka hasil yang ditampilkan akan lebih akurat karena biasanya pengunjung menggunakan google.com untuk *browsing* sehingga menampilkan hasil yang lebih sesuai.
+Website ini milik google maka hasil yang ditampilkan akan lebih akurat karena biasanya pengunjung menggunakan 'google.com' untuk browsing sehingga menampilkan hasil yang lebih sesuai.
 
 - - -
 
@@ -55,4 +53,4 @@ Kita menginginkan website yang cepat saat diakses, tapi ada pengecualian jika we
 
 Karena website akan memuat begitu banyak gambar yang HD (High Definition) sehingga membutuhkan banyak waktu untuk memuat semua gambarnya.
 
-*Soon* akan saya bahas.
+*Soon* akan saya bahas detailnya.
