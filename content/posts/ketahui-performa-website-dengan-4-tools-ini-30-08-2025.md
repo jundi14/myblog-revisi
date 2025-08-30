@@ -25,8 +25,6 @@ Situs ini bisa memberikan informasi yang cukup detail berkaitan tentang website 
 
 ![webpagetest.org](/img/webpagetest.png)
 
-
-
 Pada website ini kamu bisa lebih spesifik mensimulasikan pada merk ponsel tertentu, jadi hasil bisa menyesuaikan dengan tipe ponsel yang dipilih.
 
 Hasil yang ditampilkan juga cukup detail dengan metode yang berulang, dan bagaimana hasil akhir saat website diakses berulang kali.
@@ -45,7 +43,7 @@ Hasilnya bisa berbeda tergantung dari kecepatan server yang kamu gunakan, hasil 
 
 ![pagespeed.web.dev](/img/googlespeed.png)
 
-Website ini milik google maka hasil yang ditampilkan akan lebih akurat karena biasanya pengunjung menggunakan 'google.com' untuk browsing sehingga menampilkan hasil yang lebih sesuai.
+Website ini milik google maka hasil yang ditampilkan akan lebih akurat karena biasanya pengunjung menggunakan google.com untuk browsing sehingga menampilkan hasil yang lebih sesuai.
 
 - - -
 
