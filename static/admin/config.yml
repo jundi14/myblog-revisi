@@ -16,18 +16,18 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Judul Artikel', name: 'title', widget: 'string' }
+      - { label: 'Custom URL', name: 'slug', widget: 'string' }
+      - { label: 'Tanggal Posting', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - label: "Categories"
+      - label: "Kategori"
         name: "categories"
         widget: "select"
         multiple: true
         options: ["Teknologi", "Blogging", "Coretan"]
         default: ["Teknologi"]
       - { label: 'cover', name: 'cover', widget: 'image', required: false }
-      - { label: 'comment', name: 'comment', widget: 'boolean', required: false }
+      - { label: 'Komentar', name: 'comment', widget: 'boolean', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
