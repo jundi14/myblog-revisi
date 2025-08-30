@@ -42,12 +42,6 @@ menus:
       weight: 50
       params:
         icon: archive
-    - name: Microblog
-      url: "https://streams.place/jundi"
-      weight: 60
-      params:
-        icon: file-text
-        target: "_blank"   # Tambahkan ini agar membuka tab baru
   # footer menu
   footer:
     - name: About
@@ -55,11 +49,12 @@ menus:
       weight: 10
       params:
         icon: about
-    - name: Uses
-      pageRef: /uses
+    - name: Microblog
+      url: "https://streams.place/jundi"
       weight: 20
       params:
-        icon: list
+        icon: edit
+        target: "_blank"   # Tambahkan ini agar membuka tab baru
   # footer social link
   social:
     - name: Email
