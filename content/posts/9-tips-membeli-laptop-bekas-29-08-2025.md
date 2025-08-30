@@ -1,11 +1,11 @@
 ---
 title: 9 Tips Membeli Laptop Bekas
 slug: tips membeli laptop
-date: 2025-08-29T23:41:00.000+07:00
+date: 2025-08-07T08:00:00.000+07:00
 description: ""
-cover: /img/featured-laptop.jpg
 categories:
   - Teknologi
+cover: /img/featured-laptop.jpg
 ---
 Kebutuhan akan laptop menjadi hal yang hampir wajib di hampir seluruh kegiatan kita sehari-hari.
 
