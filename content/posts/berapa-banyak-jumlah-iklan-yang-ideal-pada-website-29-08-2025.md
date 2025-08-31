@@ -4,7 +4,7 @@ slug: jumlah iklan ideal
 date: 2025-08-10T09:00:00.000+07:00
 categories:
   - Blogging
-cover: /img/featured-iklan.jpg
+cover: ""
 ---
 Sebenarnya tidak ada patokan pasti untuk jumlah iklan dari sebuah website, tapi yang pasti kita tidak menginginkan jumlah iklan yang _bejibun_ hingga menutupi artikel.
 
