@@ -4,6 +4,7 @@ slug: cek performa website
 date: 2025-08-20T08:00:00.000+07:00
 categories:
   - Teknologi
+cover: /img/featured-performa-web.jpg
 ---
 Sebuah website harus memiliki tampilan yang menarik dan konten yang berbobot agar pembaca betah berlama-lama untuk terus membaca blog kita, apalagi blog yang biasanya memiliki banyak konten berupa teks sampai video.
 
