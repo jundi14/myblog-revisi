@@ -4,7 +4,7 @@ slug: cara-memperbaiki-pola-pikir
 date: 2025-07-01T17:08:00.000+07:00
 categories:
   - Coretan
-cover: /img/featured.jpg
+cover: /img/featured-pola-pikir.jpg
 ---
 Dalam melakukan kegiatan, pola pikir akan mempengaruhi kesehatan mental sehingga menjadi penting di setiap lini kehidupan kita, menentukkan pula apa yang akan kita lakukan berikutnya.
 
