@@ -48,12 +48,8 @@ Dukung saya di [Saweria](https://saweria.co/jundimubarok)
 Salam hangat,  
 **Jundi**
 
-  I'M Certified Impactful Writer img { max-width: 100%; height: auto; } ![Certified Impactful Writer](https://www.impactfulwriting.com/wp-content/uploads/2024/05/CIW.png)
-
 * * *
 
 [![a proud member of the blue team of 512KB club](https://512kb.club/assets/images/blue-team.svg)](https://512kb.club)
-
-![](img/Written-By-Human-Not-By-AI-Badge-white.svg)
 
 👻 Proud Member of [darktheme.club](https://darktheme.club/) 👻
